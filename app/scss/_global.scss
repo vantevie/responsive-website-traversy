@@ -33,7 +33,7 @@
 // }
 
 // .content {
-    
+
 //     @media #{$mq-1000-up}{
 //         flex: 3;
 //     }
@@ -67,16 +67,22 @@ a {
     color: $dkGray;
 }
 
-h1,h2{
+h1,
+h2 {
     font-weight: $normal;
     line-height: 1.2;
     margin: rem(10) 0;
 }
 
 p {
- margin: rem(10) 0;   
+    margin: rem(10) 0;
 }
 
 img {
     width: 100%;
+}
+
+.hidden {
+    visibility: hidden;
+    height: 0;
 }
