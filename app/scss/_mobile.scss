@@ -1,0 +1,18 @@
+@media(max-width: 500px) {
+    .navbar {
+        height: rem(110);
+
+        .flex {
+            flex-direction: column;
+        }
+
+        ul {
+            padding: rem(10);
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    .showcase-form {
+        width: 100%;
+    }
+}
