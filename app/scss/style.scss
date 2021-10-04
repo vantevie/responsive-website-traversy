@@ -1,4 +1,16 @@
+// variables
 @import "variables";
 @import "colors";
-@import "global";
 @import "typography";
+
+// content
+@import "global";
+@import "utils";
+@import "animations";
+@import "home";
+@import "features";
+@import "docs";
+
+// Media queries
+@import "tablets";
+@import "mobile";

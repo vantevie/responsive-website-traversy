@@ -1,0 +1,33 @@
+// Features
+.features-head {
+  img {
+    width: rem(200);
+    justify-self: flex-end;
+  }
+}
+
+.features-sub-head {
+  img {
+    width: rem(300);
+    justify-self: flex-end;
+  }
+}
+
+// main
+.features-main {
+  .card > i {
+    margin-right: rem(20);
+  }
+
+  .grid {
+    padding: rem(30);
+
+    > *:first-child {
+      grid-column: 1 / span 3;
+    }
+
+    > *:nth-child(2) {
+      grid-column: 1 / span 2;
+    }
+  }
+}

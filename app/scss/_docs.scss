@@ -1,0 +1,38 @@
+// Head
+.docs-head {
+  img {
+    width: rem(200);
+    justify-self: flex-end;
+  }
+}
+
+// Main
+.docs-main {
+  h3 {
+    margin: rem(20) 0;
+  }
+
+  .grid {
+    grid-template-columns: 1fr 2fr;
+    align-items: flex-start;
+  }
+
+  nav {
+    li {
+      font-size: rem(17);
+      padding-bottom: rem(5);
+      margin-bottom: rem(5);
+      border-bottom: rem(1) solid #ccc;
+    }
+  } 
+
+  a:hover {
+    font-weight: bold;
+  }
+}
+
+code, pre {
+  background: $dkGray;
+  color: $white;
+  padding: rem(10);
+}
