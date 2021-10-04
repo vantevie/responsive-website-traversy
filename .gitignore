@@ -104,7 +104,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+# dist
 
 # Gatsby files
 .cache/
@@ -148,6 +148,6 @@ dist
 *.scss.map
 
 # Gulp
-dist/
+# dist/
 
 # End of https://www.toptal.com/developers/gitignore/api/node,sass,linux
