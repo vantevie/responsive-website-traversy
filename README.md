@@ -30,7 +30,8 @@ The following are used to create this project:
 ---
 ## Status
 
-Project is: **in progress**<!--  / complete / no longer being worked on. --> 
+Project is: **complete**<!--  / complete / no longer being worked on. --> 
+Deployed on: [The Cloud Platform](https://the-cloud-platform.netlify.app)
 
 ---
 ## Acknowledgements
